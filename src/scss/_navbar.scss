@@ -1,0 +1,30 @@
+nav {
+  background-color: rgb(8 126 164/1);
+  height: 10vh;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  svg {
+    font-size: 4rem;
+    color: black;
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+
+    li {
+      list-style: none;
+
+      svg {
+        font-size: 2.3rem;
+      }
+    }
+  }
+}

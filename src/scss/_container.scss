@@ -1,0 +1,98 @@
+.container {
+  padding: 3rem;
+  margin: 1rem 3rem 1rem 10rem;
+}
+
+.cards {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1.3rem;
+  margin-top: 13rem;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+  }
+
+  img {
+    max-width: 400px;
+    border-radius: 12px;
+  }
+
+  p {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  button {
+    border: 0;
+    outline: 0;
+    width: 50%;
+    font-size: 1.3rem;
+    background: transparent;
+  }
+}
+
+.right {
+  clear: right;
+  float: right;
+}
+
+.left {
+  clear: left;
+  float: left;
+}
+
+.sbtn {
+  color: rgb(8, 126, 164);
+  font-size: 2.6rem;
+  padding: 0.5rem 0.5rem 0;
+  border: 0;
+  background: transparent;
+}
+
+.search {
+  margin-top: 10vh;
+  float: right;
+
+  >div {
+    display: flex;
+    align-items: center;
+  }
+
+  select {
+    margin-right: 0.5rem;
+
+    option {
+      font-size: medium;
+    }
+  }
+
+  input,
+  select {
+    border-color: rgb(8, 126, 164);
+    font-size: 1.6rem;
+    border-radius: 6px;
+    padding: 0.5rem;
+    color: rgb(8, 126, 164);
+
+    &::placeholder {
+      color: rgb(8, 126, 164);
+    }
+  }
+
+  button {
+    @extend .sbtn;
+  }
+}
+
+.sp {
+  text-align: center;
+  margin-left: -75rem;
+  font-size: 2rem;
+}
